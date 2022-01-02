@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <style>
+      body, html {
+        font-family: 'Oswald', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1" id="page1">
+      <h1>NEW DRIVING LICENSE</h1>
+      <h2>Lets get started</h2>
+      <h6>Add your details (As per your registered records)</h6>
+      <form id="page1form">
+        <input type="name" id="name" placeholder="Your Name"> 
+        <div class="option-container">
+          <button type="button" class="select1" name="select" value="options">Place of Residence:
+            <span class="fa fa-angle-down"></span>
+          </button>
+          <div class="options1">
+            <p class="item" id="item1">Place of Residence:</p>
+            <p class="item">Mumbai</p>
+            <p class="item">Lucknow</p>
+            <p class="item">Ahmedabad</p>
+            <p class="item">Bengaluru</p>
+            <p class="item">Chennai</p>
+            <p class="item">Manali</p>
+            <p class="item">Aurangabad</p>
+            <p class="item">Pune</p>
+            <p class="item">Kolhapur</p>
+          </div>
+        </div>
+        <h6>Nature of driving license</h6>
+        <div class="container2">
+          <div class="container-rad1">
+            <input type="radio" value="Private" name="License" id="rad1">Private 
+          </div>
+          <div class="container-rad2">
+            <input type="radio" value="Commercial " name="License" id="rad2">Commercial <br>
+          </div>
+        </div>
+        <input type="button" value="Next" name="next" id="nxt1" class="nxt1" onclick="mypage2()">
+      </form>
+
+      <div class="progress-container">
+        <div class="progress-background">
+          <div class="progress-bar" id="bar1"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container3" id="page2">
+      <h1>NEW DRIVING LICENSE</h1>
+      <h2>Lets get started</h2>
+      <h6>Add your details (As per your registered records)</h6>
+      <form>
+        <div class="option-container">
+          <button type="button" class="select2" name="select2" value="options">Required Class of Driving License:</button>
+          <div class="options2">
+            <p class="item" id="item1">Required Class of Driving License</p>
+            <p class="item">Two Wheeler</p>
+            <p class="item">Four wheeler</p>
+            <p class="item">Both(Two and Four wheeler)</p>
+          </div>
+        </div>
+        <br>
+        <div class="option-container">
+          <button type="button" class="select3" name="select3" value="options">Required Type of Driving License:</button>
+          <div class="options3">
+            <p class="item" id="item1">Required Type of Driving License</p>
+            <p class="item">Learning Driving License</p>
+            <p class="item">Permanent Driving License</p>
+            <p class="item">Commercial Driving License</p>
+            <p class="item">Both(Learning and Permanent License) </p>
+          </div>
+        </div>
+        <input type="button" value="Next" name="next" id="nxt2" onclick="mypage3()">
+      </form>
+
+      <div class="progress-container">
+        <div class="progress-background">
+          <div class="progress-bar2" id="bar2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container4" id="page3">
+      <h1>NEW DRIVING LICENSE</h1>
+      <h2>Lets get started</h2>
+      <h6>Add your details (As per your registered records)</h6>
+      <form>
+        <div class="option-container">
+          <button type="button" class="select4" name="select4" value="options">Aadhar Card:</button>
+          <div class="options4">
+            <p class="item" id="item1">Aadhar Card</p>
+            <p class="item">4564 1452 3654 7845</p>
+            <p class="item">4174 8852 6574 7845</p>
+            <p class="item">9954 2784 5138 4129</p>
+          </div>
+        </div> <br>
+        <div class="option-container">
+          <button type="button" class="select5" name="select4" value="options">Pan Card:</button>
+          <div class="options5">
+            <p class="item" id="item1">Pan Card</p>
+            <p class="item">4564 1452 3654 7845</p>
+            <p class="item">4174 8852 6574 7845</p>
+            <p class="item">9954 2784 5138 4129</p>
+          </div>
+        </div>
+      </form>
+      <div class="progress-container">
+        <div class="progress-background">
+          <div class="progress-bar" id="bar3"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+    </script>
+  </body>
+</html>
